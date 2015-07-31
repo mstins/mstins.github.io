@@ -1,0 +1,82 @@
+/* 320px (iPhone) */
+@media screen and (max-width:320px) {
+}
+/* 480px (WVGA - Low End Windows Phone) */
+@media screen and (max-width:480px) {
+	.wrapper { background: #f3f5f8; height: 640px; }
+	.iphone { display: none; }
+	.fluid-white { display: none; }
+	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
+	.legals { text-align: center; margin: 0; padding: 0; }
+	.credit { text-align: center; }
+	nav ul li a {font-size:15px!important; line-height: 65px!important; padding:0 10px; }
+
+}
+
+/* xGA iPad */
+@media screen and (max-width:1024px) {
+	.wp3 { background-position: 50px 0; }
+	.swag { background-attachment: scroll; }
+	.subscribe { background-attachment: scroll; 
+	}
+	.logo{margin-left:-100px!important;}
+	nav ul li a {font-size:18px!important; padding:20px 8px;}
+
+	.nv {
+	background-color: #242830; 
+	padding:0!important; 
+		position:relative;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    z-index: 10000;
+	    
+	margin:-59px 0!important;
+	}
+	.yonetici{font-size:10px!important;}
+	.ignite-hero{font-size:25px!important;}
+	.discephemantolama{font-size:25px!important;}
+	.arayin{font-size:20px!important;}
+	.hizmetfix{margin-bottom:15px!important;}
+	.inner{padding-top:350px!important;}
+
+}
+/* 1200px (Small Desktop, Netbook) */
+@media screen and (max-width:1280px) {
+	.wp3 { background-position: 50px 0; }
+	nav ul li a {font-size:18px; padding:20px 15px;}
+	.col-xs-offset-1{
+
+	}
+
+	.logo{margin-right:35px; margin-left:-40px;}	
+}
+/* Bootstrap 990px Breakpoint to 480px */
+@media screen and (min-width:480px) and (max-width:780px) {
+	.iphone { display: none; }
+	.fluid-white { display: none; }
+	.wrapper { background: #f3f5f8; height: 540px; }
+	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
+	.legals { text-align: center; margin: 0; padding: 0; }
+	.credit { text-align: center; }
+
+	.pull{margin:-15px auto 0 auto!important; width:auto;}
+	nav ul li a {font-size:15px!important;  padding:10px 10px; }
+	.col-xs-offset-2{margin-left:100px; }
+	.nv {
+background-color: #242830; 
+padding:0!important; 
+	position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    
+margin:-59px 0!important;
+}
+
+}
+@media screen and (min-width:780px) and (max-width:991px) {
+		nav ul li a {font-size:15px!important;  padding:20px 10px; }
+
+}
